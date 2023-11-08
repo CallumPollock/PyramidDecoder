@@ -1,0 +1,16 @@
+E:\Development\PyramidDecoder\bin\Debug\net5.0\PyramidDecoder.exe
+E:\Development\PyramidDecoder\bin\Debug\net5.0\PyramidDecoder.deps.json
+E:\Development\PyramidDecoder\bin\Debug\net5.0\PyramidDecoder.runtimeconfig.json
+E:\Development\PyramidDecoder\bin\Debug\net5.0\PyramidDecoder.runtimeconfig.dev.json
+E:\Development\PyramidDecoder\bin\Debug\net5.0\PyramidDecoder.dll
+E:\Development\PyramidDecoder\bin\Debug\net5.0\ref\PyramidDecoder.dll
+E:\Development\PyramidDecoder\bin\Debug\net5.0\PyramidDecoder.pdb
+E:\Development\PyramidDecoder\obj\Debug\net5.0\PyramidDecoder.csproj.AssemblyReference.cache
+E:\Development\PyramidDecoder\obj\Debug\net5.0\PyramidDecoder.GeneratedMSBuildEditorConfig.editorconfig
+E:\Development\PyramidDecoder\obj\Debug\net5.0\PyramidDecoder.AssemblyInfoInputs.cache
+E:\Development\PyramidDecoder\obj\Debug\net5.0\PyramidDecoder.AssemblyInfo.cs
+E:\Development\PyramidDecoder\obj\Debug\net5.0\PyramidDecoder.csproj.CoreCompileInputs.cache
+E:\Development\PyramidDecoder\obj\Debug\net5.0\PyramidDecoder.dll
+E:\Development\PyramidDecoder\obj\Debug\net5.0\ref\PyramidDecoder.dll
+E:\Development\PyramidDecoder\obj\Debug\net5.0\PyramidDecoder.pdb
+E:\Development\PyramidDecoder\obj\Debug\net5.0\PyramidDecoder.genruntimeconfig.cache
