@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace PyramidDecoder
 {
@@ -15,25 +16,30 @@ namespace PyramidDecoder
                 StreamReader sr = new StreamReader("E:\\Development\\PyramidDecoder\\coding_qual_input.txt");
                 //Read the first line of text
                 line = sr.ReadLine();
-                List<int> numbers = new List<int>();
+
+                var dict = new Dictionary<int, string>();
                 //Continue to read until you reach end of file
                 while (line != null)
                 {
                     //write the line to console window
-                    numbers.Add(int.Parse(line.Split()[0]));
+                    dict.Add(int.Parse(line.Split()[0]), line.Split()[1]);
                     //Read the next line
                     line = sr.ReadLine();
                 }
                 //close the file
                 sr.Close();
 
-                numbers.Sort();
+                var list = dict.Keys.ToList();
+                list.Sort();
+
                 string output = "";
-                for(int i = 0, y = 1; i < numbers.Count; i=+y)
+                for (int i = 0, y = 1; i < dict.Count; i += y)
                 {
-                    //
+                    output += dict[list[i]] + " ";
+                    y++;
                 }
-                
+
+                Console.WriteLine(output);
 
                 //Console.WriteLine(output);
 
